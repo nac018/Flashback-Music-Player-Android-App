@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.develop.awong.musicplayer2.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/sortTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sortTitle"
+                android:text="Title" />
+
+            <Button
+                android:id="@+id/sortArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sortArtist"
+                android:text="Artist" />
+
+            <Button
+                android:id="@+id/sortAlbum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sortAlbum"
+                android:text="Album" />
+
+            <Button
+                android:id="@+id/sortFavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sortFavorite"
+                android:text="Favorites" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1">
+        </ListView>
+
+        <Button
+            android:id="@+id/popupMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Currently Playing:"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

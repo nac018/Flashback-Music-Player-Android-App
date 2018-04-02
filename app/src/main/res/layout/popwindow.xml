@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#bfeeeb">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+
+        android:text="Title"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/Artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignStart="@+id/place"
+
+
+        android:layout_below="@+id/date"
+        android:text="artist "
+        android:layout_marginTop="19dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_below="@+id/Artist"
+        android:layout_marginTop="19dp"
+        android:textColor="#000000"
+        android:text="album" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_below="@+id/title"
+        android:layout_marginTop="19dp"
+        android:text="date"
+        android:textColor="#000000" />
+
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/date"
+        android:layout_marginTop="19dp"
+
+        android:text="time"
+        android:textColor="#000000" />
+
+
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/time"
+        android:layout_marginTop="19dp"
+
+        android:text="place"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="19dp"
+
+        android:text="userName"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>
